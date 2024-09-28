@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Notedown
+Exec=/usr/bin/notedown-desktop
+Terminal=false
+Type=Application
+Icon=notedown.png
+StartupWMClass=notedown
+GenericName=Notes Application
+Categories=Utility;
+Keywords=electron;notes;markdown;notedown;
+Comment=Notedown is a markdown (and tex) notes application/website
