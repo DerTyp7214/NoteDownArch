@@ -1,12 +1,12 @@
 _pkgname=Notedown
 pkgname=notedown-desktop
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Notedown - Markdown editor for the desktop"
 arch=('x86_64')
 url="https://github.com/DerTyp7214/NoteDownElectron"
 license=('MIT')
-makedepends=('git' 'nodejs')
+makedepends=('git' 'nodejs' 'npm' 'pnpm')
 
 source=("git+https://github.com/DerTyp7214/NoteDownElectron.git")
 sha256sums=('SKIP')
@@ -18,12 +18,12 @@ prepare() {
     # If there's a specific tag you want to build, checkout here:
     # git checkout v${pkgver}
     git submodule update --init --recursive
-    corepack pnpm install
+    pnpm install
 }
 
 build() {
     cd "${srcdir}/NoteDownElectron"
-    corepack pnpm run build:unpack
+    pnpm run build:unpack
 }
 
 package() {
