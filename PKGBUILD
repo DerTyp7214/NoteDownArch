@@ -6,7 +6,7 @@ pkgdesc="Notedown - Markdown editor for the desktop"
 arch=('x86_64')
 url="https://github.com/DerTyp7214/NoteDownElectron"
 license=('MIT')
-makedepends=('git' 'nodejs')
+makedepends=('git' 'nodejs' 'npm')
 
 source=("git+https://github.com/DerTyp7214/NoteDownElectron.git")
 sha256sums=('SKIP')
