@@ -1,6 +1,6 @@
 _pkgname=Notedown
 pkgname=notedown-desktop
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="Notedown - Markdown editor for the desktop"
 arch=('x86_64')
