@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Notedown
-Exec=/usr/bin/notedown-desktop
+Exec=/usr/lib/notedown-desktop/notedown
 Terminal=false
 Type=Application
 Icon=notedown.png
