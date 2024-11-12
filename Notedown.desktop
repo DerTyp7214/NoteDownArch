@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Notedown
+Name=NoteDown
 Exec=/usr/lib/notedown-desktop/notedown
 Terminal=false
 Type=Application
